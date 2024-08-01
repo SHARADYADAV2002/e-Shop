@@ -1,0 +1,45 @@
+{
+  "name": "eShop",
+  "version": "1.0.0",
+  "description": "eShop rest api",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Rajat Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^5.8.1",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "braintree": "^3.16.0",
+    "braintree-web-drop-in-react": "^1.2.1",
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.11.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "react-helmet": "^6.1.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "^5.0.1",
+    "slugify": "^1.6.6",
+    "web-vitals": "^3.4.0"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^8.0.1"
+  }
+}
